@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Bascule",
+    "slug": "bascule",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "bascule",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E1014",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1014"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ministereapps.bascule",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.ministereapps.bascule",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0E1014"
+      }
+    },
+    "plugins": ["expo-router", "expo-font"],
+    "extra": {
+      "apiUrl": "http://localhost:4000",
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  }
+}
